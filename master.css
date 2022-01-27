@@ -1,0 +1,67 @@
+body{
+  background-image: url(background.jpg);
+  background-size: cover;
+}
+body > div{
+  width: 700px;
+  height: 450px;
+  margin: auto;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 80px;
+  border-radius: 20px
+}
+              /* Logo-Titolo */
+header{
+  text-align: center;
+}
+
+#logo{
+  width: 150px;
+}
+
+#title{
+  color: rgb(30, 255, 10);
+  font-family: 'Ubuntu',sans-serif;
+  font-size: 30px;
+  margin: 2px;
+}
+          /* Pulsanti interattivi */
+nav > div{
+  background-color: rgb(30, 255, 10);
+  text-align: center;
+  padding: 5px;
+}
+
+             /* Monopattini */
+main > div{
+  font-family: 'Ubuntu',sans-serif;
+  color: white;
+  margin-top: 30px;
+}
+
+h3{
+  margin: 2px;
+  display: inline-block;
+}
+
+            /* Carica Batteria */
+#rectangle1{
+  width: 350px;
+  height: 20px;
+  background-color: orange;
+  border-radius: 5px;
+}
+
+#rectangle2{
+  width: 600px;
+  height: 20px;
+  background-color: rgb(30, 255, 10);
+  border-radius: 5px;
+}
+
+#rectangle3{
+  width: 150px;
+  height: 20px;
+  background-color: red;
+  border-radius: 5px;
+}
